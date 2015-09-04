@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="10dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/trending_show_imageview"
+        android:layout_width="72dp"
+        android:layout_height="40dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/default_trending_tv_show" />
+
+    <TextView
+        android:id="@+id/trending_show_name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARVELS's AGENTS OF S.H.I.E.L.D"
+        android:textSize="14sp"
+        android:textColor="#dc143c"
+        android:layout_toEndOf="@id/trending_show_imageview"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/trending_show_air_channel_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABC(RETURNING SEPTEMBER 29, 2015)"
+        android:textSize="12sp"
+        android:textColor="#1e90ff"
+        android:layout_below="@id/trending_show_name_textView"
+        android:layout_toEndOf="@id/trending_show_imageview"
+        android:paddingTop="15dp" />
+
+
+    <ImageView
+        android:id="@+id/arrow_imageview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/acc_arrow_red" />
+
+</RelativeLayout>
